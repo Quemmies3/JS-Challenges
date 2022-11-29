@@ -1,0 +1,35 @@
+* {
+    text-align: center;
+}
+
+:root {
+    --base: #3c4cc6;
+    --spacing: 15px;
+    --blur: 10px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur var(--blur);
+}
+
+.h1 {
+    color: var(--base);
+}
+
+body {
+    background: #7ba2fb;
+    color: azure;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.controls {
+    margin-bottom: 25px;
+}
+
+input {
+    width: 100px;
+}
